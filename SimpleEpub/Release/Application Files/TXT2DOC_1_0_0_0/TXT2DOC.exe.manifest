@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TXT2DOC.exe" version="1.0.0.0" publicKeyToken="4560fc4bb1da4fb4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TXT2DOC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TXT2DOC.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TXT2DOC.exe" size="922112">
+      <assemblyIdentity name="TXT2DOC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>c8BrjX7tHnW+a1lOxtlDKLsLPNFlxzHq1btnxXmWXRI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TXT2DOC.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HENRY-THINKPAD\Henry" issuerKeyHash="49c1108df938e095921406aa022c89ebb7c6a72f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>grDvyjMIooMt6GMxXC6zw/f5DD/1IZZdyP+OuIZF6I0=</DigestValue></Reference></SignedInfo><SignatureValue>CW5CjNr5IQLAbaNgfFf7yDvbNH34yNxxn11j4WsNIjBidVN3eXSE/DvQuRAeb0LYqzTzBcAoGFYwVvD+MMzd0EIun0vuS0bA8jycG0UhwhAZ1dbeegIo9YDc5cYIxRD3c310rOMN+H6kBRAOfOz9ZC3yWM0ofK29vHn8HosZkC4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0CgMMjDu6eUePyfUttSpdAnEKGgHNKc09zhwYNHLQ0WSC+lgSj6wrmgOVPWkDMTZ/AZ4d5WR6Ov8fcxs/QdNMUsb3CgNrkkz0lE2KS9VmR/Y+kERV8XeyjK1PMCIl8q/Q5fDPgTM/wRh5fLlHU7gCYTAEqp/G9TC4l7QR/mMegk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8de84586b88effc85d9621f53f0cf9f7c3b32e5c3163e82d83a20833caefb082" Description="" Url=""><as:assemblyIdentity name="TXT2DOC.exe" version="1.0.0.0" publicKeyToken="4560fc4bb1da4fb4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HENRY-THINKPAD\Henry</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Aa1yP0bEfooByHZ1zJm4af6jz8nw7G9AU31jreKx6ZA=</DigestValue></Reference></SignedInfo><SignatureValue>EehgAWUoIb9ktjbrz6jkm+L858OmkVRAxww+2HqIer/mnDEypAvepdU1M1w0BPuAHA5QayPvk+InuCDObCURQuYhMPDXkRM5kev3TEpa8UKZF7B+mM5aE2i2NFQxGYtunc2V7/Z8/IS+jFxDC8F7zka4Q8oc8a5Yg5gBVDh6suc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0CgMMjDu6eUePyfUttSpdAnEKGgHNKc09zhwYNHLQ0WSC+lgSj6wrmgOVPWkDMTZ/AZ4d5WR6Ov8fcxs/QdNMUsb3CgNrkkz0lE2KS9VmR/Y+kERV8XeyjK1PMCIl8q/Q5fDPgTM/wRh5fLlHU7gCYTAEqp/G9TC4l7QR/mMegk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQPhADoVCaEY5MTlu3CK3NpTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASABFAE4AUgBZAC0AVABIAEkATgBLAFAAQQBEAFwASABlAG4AcgB5MB4XDTEzMDYxNjAwMzAwNloXDTE0MDYxNjA2MzAwNlowMzExMC8GA1UEAx4oAEgARQBOAFIAWQAtAFQASABJAE4ASwBQAEEARABcAEgAZQBuAHIAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0CgMMjDu6eUePyfUttSpdAnEKGgHNKc09zhwYNHLQ0WSC+lgSj6wrmgOVPWkDMTZ/AZ4d5WR6Ov8fcxs/QdNMUsb3CgNrkkz0lE2KS9VmR/Y+kERV8XeyjK1PMCIl8q/Q5fDPgTM/wRh5fLlHU7gCYTAEqp/G9TC4l7QR/mMegkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBaQDM3DHxrj8xKwKq+9b50Vk+mNPJxVSOMwNx0a3sSggovFGmRHKuiGdnh+B+3NsdxBoEoSvV/qfqpsbgxMRG0TdODEqE9i2VyqugrBG6GOtKzHoy5GDRlZmHhzgnd5WKyGv/0c7gvYOScw7tiUL4v4DzYZF9+VTyrCZ51vfHVNA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
